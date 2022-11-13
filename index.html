@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Handson-1</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>JS Handson-1</h1>
+    <div class="container">
+        <div class="card">
+            <div class="front part1">
+                <span>1.Add two Numbers</span><br><br><p>You are provided with two numbers A and B.Your task is to add these two numbers.Note: You have to complete AddTwoNumbers function. No need to take any input.Constraints: 1≤A,B≤500</p><br><br>
+                <pre>
+                    const AddTwoNumbers = (a,b) => {
+                        return a+b;
+                    };<br>
+                    Input:
+                    2 5 
+                    Output:
+                    7
+                </pre>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>2.Find if the conditions are obeyed or not?</span><br><br><p>You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.Note: You have to complete Is_Valid function. No need to take any input.Constraints:1≤A,B≤500</p><br><br>
+                <pre>
+                    const Is_Valid = (a,b) => {
+                        return a<10 && a>b;
+                    };  
+                    Input:
+                    5 3 
+                    Output:
+                    true
+                    </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>3.Check the conditons</span><br><p>You are given two numbers A and B.You need to do the following checks:(a)if both are divisible by 10 console true.(b)if both are not divisible by 10 console false.(c)if one of them only is divisible by 10 console true.Use operator to do this.</p>
+                <pre>
+                    const Check = (A, B) => { 
+                        if(A%10===0 && B%10===0){
+                            return "true";
+                        }
+                        else if(A%10===0 || B%10===0){
+                            return "true";
+                        }
+                        else{
+                            return "false";
+                        }
+                    };
+                    Input:
+                    12 20
+                    Output:
+                    true
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>4.Find the first digit of a 4 digit number</span><br><br><p>You are provided a four digit number N only. Your task is to print out the first digit of that number.Note: You have to complete First_Digit function. No need to take any input.Constraints:1000≤N≤9999</p><br>
+                <pre>
+                    const First_Digit = (n) => {
+                        var a=n/1000;
+                        var b=parseInt(a);
+                        return b;
+                    };<br>
+                    Input:
+                    4567
+                    Output:
+                    4
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>5.Find the last digit of a 4 digit number</span><br><br><p>You are provided a four digit number N only. Your task is to print out the last digit of that number.Note: You have to complete Last_Digit function. No need to take any input.Constraints:1000≤N≤9999</p><br>
+                <pre>
+                    const Last_Digit = (n) => {
+                        var a=n%10;
+                        return a;
+                    };<br>
+                    Input:
+                    4567
+                    Output:
+                    7  
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>6.Find the remainder</span><br><br><p>You are provided with two numbers A and B where A as  divisor and B as  dividend.Your task is find the remainder. Note: You have to complete Find_the_remainder function. No need to take any input.Constraints:1≤A,B≤1000</p><br>
+                <pre>
+                    const Find_the_remainder = (a,b) => {
+                        return (a%b); 
+                    };<br>
+                    Input:
+                    2 9
+                    Output:
+                    1
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>7.Multipy two Numbers</span><br><br><p>You are provided with two numbers A and B.Your task is to multiply these two numbers.Note: You have to complete Multiply_two_number function. No need to take any input.Constraints:1≤A,B≤30</p><br>
+                <pre>
+                    const Multiply_two_number = (a,b) => {
+                        return a*b;
+                    };<br>
+                    Input:
+                    2 5
+                    Output:
+                    10
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front part1">
+                <span>8.Marks Calculator</span><p>Shyam has got his marks in three subjects as A, B,and C (out of 100).Write a program to calculate his total marks and his average.Note: You have to complete Sum and Average functions. No need to take any input.<br>Constraints:0≤A,B,C≤100</p><br>
+                <pre>
+                    const Sum = (A, B, C) => {
+                        return A+B+C;
+                    };
+                    const Average = (A, B, C) => {
+                        return (A+B+C)/3;
+                    };<br>
+                    Input:
+                    50 20 100
+                    Output:
+                    170
+                    56.666666666666664
+                </pre>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

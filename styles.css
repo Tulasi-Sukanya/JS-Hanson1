@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(50deg, silver,lightgreen,lightcoral,silver,lightblue);
+    opacity: 1;
+}
+h1{
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    color:silver;
+    opacity: 1;
+    background:linear-gradient(50deg,lightgreen,lightyellow,lightgreen,lightyellow,lightgreen);
+    border: 2px solid rgb(187, 155, 155);
+    color: #fff;
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #41464c,0 0 20px #2b2f33,0 0 25px #495158,0 0 30px #424649,0 0 35px #3b4045;
+}
+.container{
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.card{
+    height: 345px;
+    width:300px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    background:linear-gradient(100deg, lightgreen, lightyellow, lightblue);
+}
+.card:hover{
+    box-shadow: 3px 3px 5px lightslategrey;
+    background-color: lightskyblue;
+}
+span{
+    font-weight: bold;
+    size: 15px;
+}
+p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+pre{
+    margin-left: -130px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
